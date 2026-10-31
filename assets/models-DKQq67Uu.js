@@ -1,4 +1,4 @@
-import{E as e,Un as t,a as n,p as r,s as i,t as a,wt as o}from"./night-DtwMBjVY.js";import{t as s}from"./index-CgJvGlwc.js";import{a as c,i as l,n as u,o as d,r as f,t as p}from"./horde3d-DDQLQLWF.js";var m=12,h=.012,g=new e(.78,.92,1),_=class{base;night;scene;manifest=null;palette=null;hex=new Map;gltf=new Map;figures=new Map;loader=new c;rim;ghost;constructor(e,n,r){this.base=e,this.night=n,this.scene=r,this.rim=new t({side:1,uniforms:{...n,uColor:{value:l(854804)},uWidth:{value:h}},vertexShader:`
+import{E as e,Un as t,a as n,p as r,s as i,t as a,wt as o}from"./night-DtwMBjVY.js";import{t as s}from"./index-CkmYS9-h.js";import{a as c,i as l,n as u,o as d,r as f,t as p}from"./horde3d-DDQLQLWF.js";var m=12,h=.012,g=new e(.78,.92,1),_=class{base;night;scene;manifest=null;palette=null;hex=new Map;gltf=new Map;figures=new Map;loader=new c;rim;ghost;constructor(e,n,r){this.base=e,this.night=n,this.scene=r,this.rim=new t({side:1,uniforms:{...n,uColor:{value:l(854804)},uWidth:{value:h}},vertexShader:`
         uniform float uWidth;
         varying float vDepth;
         void main() {

@@ -1,4 +1,4 @@
-import{Bt as e,E as t,Hn as n,Rt as r,T as i,Tt as a,Un as o,lr as s,n as c,p as l,q as u,wt as d,xt as f,yt as p}from"./night-DtwMBjVY.js";import{n as m}from"./index-CgJvGlwc.js";import{a as h,i as g,n as _,o as v,r as y,t as b}from"./horde3d-DDQLQLWF.js";var x=.012,S=[`top`,`shoulder`,`orbit`];function C(e,t){return new o({uniforms:{uDark:{value:e[0]},uMid:{value:e[1]},uLight:{value:e[2]},uLightDir:{value:y},uBands:{value:_},uFlat:{value:+!!t}},vertexShader:`
+import{Bt as e,E as t,Hn as n,Rt as r,T as i,Tt as a,Un as o,lr as s,n as c,p as l,q as u,wt as d,xt as f,yt as p}from"./night-DtwMBjVY.js";import{n as m}from"./index-CkmYS9-h.js";import{a as h,i as g,n as _,o as v,r as y,t as b}from"./horde3d-DDQLQLWF.js";var x=.012,S=[`top`,`shoulder`,`orbit`];function C(e,t){return new o({uniforms:{uDark:{value:e[0]},uMid:{value:e[1]},uLight:{value:e[2]},uLightDir:{value:y},uBands:{value:_},uFlat:{value:+!!t}},vertexShader:`
       varying vec3 vN;
       void main() {
         vN = normalize(normalMatrix * normal); // the camera's space, as the sprites are lit
