@@ -1,9 +1,10 @@
 # Audio sources
 
-Every sound effect here comes from a public sound library under CC0 1.0 (no attribution required; credited anyway). The
-music (music/) was made for the game with Stable Audio 3 Medium (Stability AI); see the end of this file. The rest of the
-game's sounds are synthesised at runtime in src/game/audio.ts: the loot chimes, grenade pins, the ring after a close
-blast, the roar of burning petrol and the UI ticks.
+Most sound effects here come from a public sound library under CC0 1.0 (no attribution required; credited anyway).
+The music (music/) and the vehicle, boss and events sheets and the engine loop were made for the game with Stable
+Audio 3 Medium (Stability AI); see the end of this file. The rest of the game's sounds are synthesised at runtime in
+src/game/audio.ts: the loot chimes, grenade pins, the ring after a close blast, the roar of burning petrol and the UI
+ticks.
 Every file is re-encoded to AAC (.m4a), which every browser plays,
 iPhone Safari included.
 
@@ -56,3 +57,42 @@ made them, and use is free for anyone below US $1M in annual revenue. The prompt
 - `boss.m4a`: epic boss battle music, massive taiko drums and orchestral hits, heavy metal guitars, dark choir, 160 BPM
 - `dawn.m4a`: triumphant sunrise theme after surviving the night, uplifting strings and piano, warm brass swell, relief and hope
 - `gameover.m4a`: somber game over music, solo piano, fading strings, quiet and short
+
+## Generated sound effects
+
+`vehicle.m4a`, `boss.m4a`, `events.m4a` and `loop-engine.m4a` were generated for this game from text prompts with
+Stable Audio 3 Medium (Stability AI, 2026), each picked by ear from four takes, under the same licence as the music
+above. Every prompt ended with ", sound effect, isolated, close, dry, high quality recording", with the negative prompt
+"music, melody, song, background music, speech". Each take was cut to where it sounds, faded and peak-normalised, mono
+44.1 kHz AAC; the bloater's swell is its first second, and the engine is looped with its tail faded over its start.
+The clips:
+
+- `vehicle.m4a` horn: a car horn honking once, a short honk of an old sedan's horn
+- `vehicle.m4a` start: a car engine starting: the starter motor cranks, then the petrol engine catches and idles
+- `vehicle.m4a` stop: a car engine being switched off, the engine shuts down and dies
+- `vehicle.m4a` crash: a car crashing into a wall, crunching metal impact and breaking glass
+- `vehicle.m4a` fire: a car catching fire, gasoline igniting with a loud whoosh, flames bursting
+- `boss.m4a` brace: a huge monster snorting and growling deeply, about to charge
+- `boss.m4a` charge: a giant running with heavy thundering footsteps, the ground shaking
+- `boss.m4a` smash: a giant smashing through a wooden barricade, splintering wood and debris
+- `boss.m4a` daze: a giant crashing head first into a concrete wall, a crunch and a dull ringing
+- `boss.m4a` wind: a heavy butcher's cleaver raised up, a metal scrape and a slow whoosh
+- `boss.m4a` slam: a huge cleaver slammed into the ground, a deep heavy thud and a metal clang
+- `events.m4a` throw: a quick whoosh of an object thrown hard through the air
+- `events.m4a` spit: a monster spitting, a wet gross hawk and a gob of spit flying
+- `events.m4a` acid: acid splashing on the ground and sizzling, corrosive hissing liquid
+- `events.m4a` fuse: a bloated monster swelling up, wet gurgling and a rising hiss before it bursts
+- `events.m4a` zap: an electric shock, high voltage spark crackling and zapping
+- `events.m4a` shock: a sharp electrical discharge, a single heavy electric thump and crackle
+- `events.m4a` decoy: an old alarm clock ringing loudly, shrill metal bell
+- `events.m4a` flare: a signal flare fired into the sky, a whooshing launch and a distant pop
+- `events.m4a` plane: a cargo plane flying low overhead, propeller engines droning past
+- `events.m4a` radio: a walkie talkie radio, squelch, static and a garbled voice transmission
+- `events.m4a` radioSet: a heavy radio set put down on a metal truck bed, a clunk and a switch click
+- `events.m4a` surge: war drums approaching in the distance, getting louder and faster, ominous
+- `events.m4a` nightfall: a deep ominous horn drone as night falls, dark and low
+- `events.m4a` dawn: a few birds chirping at dawn, short bird calls in a quiet morning
+- `events.m4a` down: a man collapsing to the ground, body fall and a pained groan
+- `events.m4a` levelUp: a short bright triumphant game level up sting
+- `events.m4a` legendary: a magical shimmering treasure found chime, a game reward jingle
+- `loop-engine.m4a` loop: a petrol car engine idling steadily, constant even rumble
