@@ -1,7 +1,7 @@
 # Audio sources
 
 Most sound effects here come from a public sound library under CC0 1.0 (no attribution required; credited anyway).
-The music (music/) and the vehicle, boss and events sheets and the engine loop were made for the game with Stable
+The music (music/) and the vehicle, boss and events sheets, the engine and car alarm loops and the passing pack were made for the game with Stable
 Audio 3 Medium (Stability AI); see the end of this file. The rest of the game's sounds are synthesised at runtime in
 src/game/audio.ts: the loot chimes, grenade pins, the ring after a close blast, the roar of burning petrol and the UI
 ticks.
@@ -60,7 +60,7 @@ made them, and use is free for anyone below US $1M in annual revenue. The prompt
 
 ## Generated sound effects
 
-`vehicle.m4a`, `boss.m4a`, `events.m4a` and `loop-engine.m4a` were generated for this game from text prompts with
+`vehicle.m4a`, `boss.m4a`, `events.m4a`, `loop-engine.m4a`, `loop-car-alarm.m4a` and `pack-pass.m4a` were generated for this game from text prompts with
 Stable Audio 3 Medium (Stability AI, 2026), each picked by ear from four takes, under the same licence as the music
 above. Every prompt ended with ", sound effect, isolated, close, dry, high quality recording", with the negative prompt
 "music, melody, song, background music, speech". Each take was cut to where it sounds, faded and peak-normalised, mono
@@ -96,3 +96,5 @@ The clips:
 - `events.m4a` levelUp: a short bright triumphant game level up sting
 - `events.m4a` legendary: a magical shimmering treasure found chime, a game reward jingle
 - `loop-engine.m4a` loop: a petrol car engine idling steadily, constant even rumble
+- `loop-car-alarm.m4a` (looped the same way): a car alarm going off in a city street, a loud repeating siren wail and horn beeps
+- `pack-pass.m4a`: a large crowd of zombies groaning and shuffling past in the distance, many moaning voices
