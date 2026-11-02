@@ -98,3 +98,7 @@ The clips:
 - `loop-engine.m4a` loop: a petrol car engine idling steadily, constant even rumble
 - `loop-car-alarm.m4a` (looped the same way): a car alarm going off in a city street, a loud repeating siren wail and horn beeps
 - `pack-pass.m4a`: a large crowd of zombies groaning and shuffling past in the distance, many moaning voices
+
+## Voice
+
+- `intro-zh.m4a`, `intro-en.m4a`: the opening's radio call (the lines `intro.1`–`intro.4`), spoken by CosyVoice 2 (FunAudioLLM/CosyVoice2-0.5B, Apache-2.0) in the voice of CosyVoice-300M-SFT's own male speaker (Apache-2.0), asked for "a low, tired but steady voice, like a soldier on a field radio"; each line the best of a few takes by how closely Whisper heard the script. Put through a radio's band, a little overdrive and a squelch either side of each line, over static (ffmpeg).
