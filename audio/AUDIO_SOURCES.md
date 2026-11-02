@@ -102,3 +102,4 @@ The clips:
 ## Voice
 
 - `intro-zh.m4a`, `intro-en.m4a`: the opening's radio call (the lines `intro.1`–`intro.4`), spoken by CosyVoice 2 (FunAudioLLM/CosyVoice2-0.5B, Apache-2.0) in the voice of the woman in CosyVoice's own prompt clip (asset/zero_shot_prompt.wav, Apache-2.0), asked for "a low, tired but steady voice, like a soldier on a field radio"; each line the best of a few takes by how closely Whisper heard the script. Put through a radio's band, a little overdrive and a squelch either side of each line, over static (ffmpeg).
+- `radio-<line>-<lang>.m4a` (`why-battery`, `why-tower`, `why-codes`, `why-pilot`, `why-relay`, `called`; `zh`, `en`): the rescue team's lines on the way out (`radio.*`), in the opening's voice and tone, each the best of up to three takes by Whisper, through the same radio treatment.
