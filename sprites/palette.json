@@ -241,6 +241,18 @@
     {
       "name": "hat_2",
       "hex": "#ffe066"
+    },
+    {
+      "name": "apron_0",
+      "hex": "#7d7462"
+    },
+    {
+      "name": "apron_1",
+      "hex": "#c2b9a3"
+    },
+    {
+      "name": "apron_2",
+      "hex": "#ece4cf"
     }
   ],
   "ramps": {
@@ -413,6 +425,11 @@
       "hat_0",
       "hat_1",
       "hat_2"
+    ],
+    "apron": [
+      "apron_0",
+      "apron_1",
+      "apron_2"
     ]
   },
   "emissive": [
