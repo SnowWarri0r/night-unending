@@ -253,6 +253,30 @@
     {
       "name": "apron_2",
       "hex": "#ece4cf"
+    },
+    {
+      "name": "pkred_0",
+      "hex": "#5e1f17"
+    },
+    {
+      "name": "pkred_1",
+      "hex": "#a8402c"
+    },
+    {
+      "name": "pkred_2",
+      "hex": "#d9714e"
+    },
+    {
+      "name": "pkgrn_0",
+      "hex": "#2c321e"
+    },
+    {
+      "name": "pkgrn_1",
+      "hex": "#4f5934"
+    },
+    {
+      "name": "pkgrn_2",
+      "hex": "#7b8650"
     }
   ],
   "ramps": {
@@ -430,6 +454,16 @@
       "apron_0",
       "apron_1",
       "apron_2"
+    ],
+    "pack_red": [
+      "pkred_0",
+      "pkred_1",
+      "pkred_2"
+    ],
+    "pack_green": [
+      "pkgrn_0",
+      "pkgrn_1",
+      "pkgrn_2"
     ]
   },
   "emissive": [

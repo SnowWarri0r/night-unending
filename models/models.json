@@ -27,6 +27,7 @@
  "models": [
   "ally_pistol",
   "ally_shotgun",
+  "gear_packs",
   "hero_doc",
   "hero_eagle",
   "hero_iron",
