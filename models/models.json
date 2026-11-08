@@ -11,6 +11,7 @@
  ],
  "holds": {
   "pistol": "pistol",
+  "revolver": "pistol",
   "smg": "pistol",
   "shotgun": "long",
   "rifle": "long",
@@ -52,6 +53,7 @@
   "survivor_lmg",
   "survivor_machete",
   "survivor_pistol",
+  "survivor_revolver",
   "survivor_rifle",
   "survivor_shotgun",
   "survivor_smg",
