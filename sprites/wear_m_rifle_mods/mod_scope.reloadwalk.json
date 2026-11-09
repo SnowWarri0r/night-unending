@@ -1,0 +1,22 @@
+{
+  "cell": [64, 64],
+  "frames": 12,
+  "durations": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "pivot": [32, 54],
+  "anchors": {},
+  "palette": "../palette.json",
+  "ppm": 40
+}
