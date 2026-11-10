@@ -46,7 +46,7 @@ peak-normalised, mono 44.1 kHz AAC. The slices are in src/game/sheetsAudio.ts. T
 
 ## Music
 
-`music/*.m4a` (menu, day, dusk, night, boss, dawn, gameover) were generated for this game from text prompts with
+`music/*.m4a` (menu, day and its seasons, dusk, night, boss, dawn, gameover) were generated for this game from text prompts with
 Stable Audio 3 Medium (Stability AI, 2026), each picked by ear from three takes, then re-encoded to AAC 96 kbit/s.
 The model is under the Stability AI Community License (https://stability.ai/license): its outputs belong to whoever
 made them, and use is free for anyone below US $1M in annual revenue. The prompts:
@@ -58,6 +58,14 @@ made them, and use is free for anyone below US $1M in annual revenue. The prompt
 - `boss.m4a`: epic boss battle music, massive taiko drums and orchestral hits, heavy metal guitars, dark choir, 160 BPM
 - `dawn.m4a`: triumphant sunrise theme after surviving the night, uplifting strings and piano, warm brass swell, relief and hope
 - `gameover.m4a`: somber game over music, solo piano, fading strings, quiet and short
+
+The day's track is the season's (`day.m4a` is spring's). The other three were made the same way: two prompts a
+season, two takes of each, the one kept picked by what can be measured of it (how bright, how much is struck, how
+steady its beat) and not yet by ear, then levelled to the first (-13.8 LUFS). The prompts of the three kept:
+
+- `day-summer.m4a`: post-apocalyptic daytime exploration music, bright clean electric guitar arpeggios with tremolo, warm bass, light shaker and brushed drums, heat haze, wide and sunlit yet lonely, 95 BPM
+- `day-autumn.m4a`: post-apocalyptic daytime exploration music in autumn, melancholy fingerpicked acoustic guitar, a soft cello line, warm ambient pads, light brushed drums, wistful and reflective, 80 BPM
+- `day-winter.m4a`: post-apocalyptic daytime exploration music in a snowed-in city, sparse felt piano and glassy bell tones, cold airy pads, a distant lonely clean electric guitar, very light percussion, hushed, frozen and desolate, 70 BPM
 
 ## Generated sound effects
 
