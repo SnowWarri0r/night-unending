@@ -23,7 +23,10 @@
   "crossbow": "long",
   "dbarrel": "long",
   "flamer": "long",
-  "launcher": "long"
+  "launcher": "long",
+  "carbine": "long",
+  "dmr": "long",
+  "autoshot": "long"
  },
  "models": [
   "ally_pistol",
@@ -44,10 +47,13 @@
   "merc_rifle",
   "merc_smg",
   "merchant",
+  "survivor_autoshot",
   "survivor_axe",
   "survivor_bat",
+  "survivor_carbine",
   "survivor_crossbow",
   "survivor_dbarrel",
+  "survivor_dmr",
   "survivor_flamer",
   "survivor_launcher",
   "survivor_lmg",
