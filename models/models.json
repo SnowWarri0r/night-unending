@@ -47,6 +47,9 @@
   "merc_rifle",
   "merc_smg",
   "merchant",
+  "raider",
+  "raider_boss",
+  "raider_cap",
   "survivor_autoshot",
   "survivor_axe",
   "survivor_bat",
@@ -69,11 +72,14 @@
   "zombie_burner",
   "zombie_butcher",
   "zombie_crawler",
+  "zombie_office",
   "zombie_police",
   "zombie_police_broken",
   "zombie_runner",
+  "zombie_soldier",
   "zombie_spitter",
   "zombie_walker",
+  "zombie_woman",
   "zombie_worker"
  ]
 }
