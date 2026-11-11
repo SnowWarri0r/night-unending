@@ -464,11 +464,17 @@
       "pkgrn_0",
       "pkgrn_1",
       "pkgrn_2"
+    ],
+    "ember": [
+      "hivis_1",
+      "hivis_2",
+      "hivis_2"
     ]
   },
   "emissive": [
     "eye_glow",
     "reflect",
-    "acid_glow"
+    "acid_glow",
+    "ember"
   ]
 }
