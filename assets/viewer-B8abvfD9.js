@@ -1,4 +1,4 @@
-import{$ as e,A as t,At as n,Dt as r,Jn as i,Kt as a,Tt as o,Wt as s,Yn as c,gr as l,j as u,jt as d,y as f}from"./atlas-B33wPB-X.js";import{t as p}from"./three.module-BFD85Qjm.js";import{n as m}from"./index-Cdy51YLT.js";import{a as h,c as g,o as _,r as v,s as y,t as b}from"./horde3d-BZUPGSNH.js";var x=.012,S=[`top`,`shoulder`,`orbit`];function C(e,t){return new c({uniforms:{uDark:{value:e[0]},uMid:{value:e[1]},uLight:{value:e[2]},uLightDir:{value:h},uBands:{value:v},uFlat:{value:+!!t}},vertexShader:`
+import{$ as e,A as t,At as n,Dt as r,Jn as i,Kt as a,Tt as o,Wt as s,Yn as c,gr as l,j as u,jt as d,y as f}from"./atlas-iVGNGyLn.js";import{t as p}from"./three.module-CeRtxjyB.js";import{n as m}from"./index-B5llmXpa.js";import{a as h,c as g,o as _,r as v,s as y,t as b}from"./horde3d-BIgr9Q4y.js";var x=.012,S=[`top`,`shoulder`,`orbit`];function C(e,t){return new c({uniforms:{uDark:{value:e[0]},uMid:{value:e[1]},uLight:{value:e[2]},uLightDir:{value:h},uBands:{value:v},uFlat:{value:+!!t}},vertexShader:`
       varying vec3 vN;
       void main() {
         vN = normalize(normalMatrix * normal); // the camera's space, as the sprites are lit
