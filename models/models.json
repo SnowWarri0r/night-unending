@@ -26,7 +26,8 @@
   "launcher": "long",
   "carbine": "long",
   "dmr": "long",
-  "autoshot": "long"
+  "autoshot": "long",
+  "crowbar": "melee"
  },
  "models": [
   "ally_pistol",
@@ -55,6 +56,7 @@
   "survivor_bat",
   "survivor_carbine",
   "survivor_crossbow",
+  "survivor_crowbar",
   "survivor_dbarrel",
   "survivor_dmr",
   "survivor_flamer",
