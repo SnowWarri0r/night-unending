@@ -8,15 +8,15 @@
     },
     {
       "name": "zskin_0",
-      "hex": "#44573f"
+      "hex": "#3a4237"
     },
     {
       "name": "zskin_1",
-      "hex": "#7f9b72"
+      "hex": "#687462"
     },
     {
       "name": "zskin_2",
-      "hex": "#b1c79a"
+      "hex": "#949d86"
     },
     {
       "name": "rot_0",
@@ -28,15 +28,15 @@
     },
     {
       "name": "bskin_0",
-      "hex": "#46524e"
+      "hex": "#3e4642"
     },
     {
       "name": "bskin_1",
-      "hex": "#6f8073"
+      "hex": "#626c66"
     },
     {
       "name": "bskin_2",
-      "hex": "#a1b29c"
+      "hex": "#8d978d"
     },
     {
       "name": "hskin_0",
@@ -189,6 +189,10 @@
     {
       "name": "eye_glow",
       "hex": "#fff39a"
+    },
+    {
+      "name": "eye_dead",
+      "hex": "#a39f78"
     },
     {
       "name": "visor",
@@ -469,12 +473,18 @@
       "hivis_1",
       "hivis_2",
       "hivis_2"
+    ],
+    "eye_dead": [
+      "eye_dead",
+      "eye_dead",
+      "eye_dead"
     ]
   },
   "emissive": [
     "eye_glow",
     "reflect",
     "acid_glow",
-    "ember"
+    "ember",
+    "eye_dead"
   ]
 }
