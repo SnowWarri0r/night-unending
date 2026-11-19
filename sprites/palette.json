@@ -8,15 +8,15 @@
     },
     {
       "name": "zskin_0",
-      "hex": "#3a4237"
+      "hex": "#3c3b3c"
     },
     {
       "name": "zskin_1",
-      "hex": "#687462"
+      "hex": "#6d6a63"
     },
     {
       "name": "zskin_2",
-      "hex": "#949d86"
+      "hex": "#9b9688"
     },
     {
       "name": "rot_0",
@@ -28,15 +28,15 @@
     },
     {
       "name": "bskin_0",
-      "hex": "#3e4642"
+      "hex": "#3a383a"
     },
     {
       "name": "bskin_1",
-      "hex": "#626c66"
+      "hex": "#66625d"
     },
     {
       "name": "bskin_2",
-      "hex": "#8d978d"
+      "hex": "#918b80"
     },
     {
       "name": "hskin_0",
@@ -281,6 +281,42 @@
     {
       "name": "pkgrn_2",
       "hex": "#7b8650"
+    },
+    {
+      "name": "dvis_0",
+      "hex": "#45281a"
+    },
+    {
+      "name": "dvis_1",
+      "hex": "#7c4626"
+    },
+    {
+      "name": "dvis_2",
+      "hex": "#a2683e"
+    },
+    {
+      "name": "dhat_0",
+      "hex": "#463c22"
+    },
+    {
+      "name": "dhat_1",
+      "hex": "#7a6a36"
+    },
+    {
+      "name": "dhat_2",
+      "hex": "#9d8c52"
+    },
+    {
+      "name": "pus_0",
+      "hex": "#2c3016"
+    },
+    {
+      "name": "pus_1",
+      "hex": "#5c6226"
+    },
+    {
+      "name": "pus_2",
+      "hex": "#868a3c"
     }
   ],
   "ramps": {
@@ -375,9 +411,9 @@
       "hair_0"
     ],
     "mouth": [
+      "outline",
       "blood_0",
-      "blood_0",
-      "blood_1"
+      "blood_0"
     ],
     "teeth": [
       "cloth_1",
@@ -396,8 +432,8 @@
     ],
     "socket": [
       "outline",
-      "hair_0",
-      "rot_0"
+      "outline",
+      "outline"
     ],
     "eye_hl": [
       "reflect",
@@ -478,6 +514,26 @@
       "eye_dead",
       "eye_dead",
       "eye_dead"
+    ],
+    "hivis_dead": [
+      "dvis_0",
+      "dvis_1",
+      "dvis_2"
+    ],
+    "hardhat_dead": [
+      "dhat_0",
+      "dhat_1",
+      "dhat_2"
+    ],
+    "pus": [
+      "pus_0",
+      "pus_1",
+      "pus_2"
+    ],
+    "pus_glow": [
+      "pus_1",
+      "pus_2",
+      "pus_2"
     ]
   },
   "emissive": [
@@ -485,6 +541,7 @@
     "reflect",
     "acid_glow",
     "ember",
-    "eye_dead"
+    "eye_dead",
+    "pus_glow"
   ]
 }
