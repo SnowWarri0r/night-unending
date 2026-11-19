@@ -1,14 +1,82 @@
 {
- "looks": [
-  "m_short",
-  "m_beard",
-  "m_cap",
-  "m_beanie",
-  "f_pony",
-  "f_bob",
-  "f_long",
-  "f_bun"
- ],
+ "looks": {
+  "m_short": {
+   "body": "m",
+   "wear": [
+    "top_jacket",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_short"
+   ]
+  },
+  "m_beard": {
+   "body": "m",
+   "wear": [
+    "top_shirt",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_buzz",
+    "beard"
+   ]
+  },
+  "m_cap": {
+   "body": "m",
+   "wear": [
+    "top_jacket",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_buzz",
+    "hat_cap"
+   ]
+  },
+  "m_beanie": {
+   "body": "m",
+   "wear": [
+    "top_tee",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_buzz",
+    "hat_beanie",
+    "beard"
+   ]
+  },
+  "f_pony": {
+   "body": "f",
+   "wear": [
+    "top_jacket",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_ponytail"
+   ]
+  },
+  "f_bob": {
+   "body": "f",
+   "wear": [
+    "top_tee",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_bob"
+   ]
+  },
+  "f_long": {
+   "body": "f",
+   "wear": [
+    "top_jacket",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_long"
+   ]
+  },
+  "f_bun": {
+   "body": "f",
+   "wear": [
+    "top_shirt",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_bun"
+   ]
+  }
+ },
  "holds": {
   "pistol": "pistol",
   "revolver": "pistol",
@@ -32,19 +100,15 @@
  "models": [
   "ally_pistol",
   "ally_shotgun",
+  "body_f",
+  "body_m",
+  "dress_f",
+  "dress_m",
   "gear_packs",
   "hero_doc",
   "hero_eagle",
   "hero_iron",
   "hero_wrench",
-  "look_f_bob",
-  "look_f_bun",
-  "look_f_long",
-  "look_f_pony",
-  "look_m_beanie",
-  "look_m_beard",
-  "look_m_cap",
-  "look_m_short",
   "merc_rifle",
   "merc_smg",
   "merchant",
