@@ -1,0 +1,151 @@
+{
+ "looks": {
+  "m_short": {
+   "body": "m",
+   "wear": [
+    "top_jacket",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_short"
+   ]
+  },
+  "m_beard": {
+   "body": "m",
+   "wear": [
+    "top_shirt",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_buzz",
+    "beard"
+   ]
+  },
+  "m_cap": {
+   "body": "m",
+   "wear": [
+    "top_jacket",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_buzz",
+    "hat_cap"
+   ]
+  },
+  "m_beanie": {
+   "body": "m",
+   "wear": [
+    "top_tee",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_buzz",
+    "hat_beanie",
+    "beard"
+   ]
+  },
+  "f_pony": {
+   "body": "f",
+   "wear": [
+    "top_jacket",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_ponytail"
+   ]
+  },
+  "f_bob": {
+   "body": "f",
+   "wear": [
+    "top_tee",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_bob"
+   ]
+  },
+  "f_long": {
+   "body": "f",
+   "wear": [
+    "top_jacket",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_long"
+   ]
+  },
+  "f_bun": {
+   "body": "f",
+   "wear": [
+    "top_shirt",
+    "legs_jeans",
+    "shoes_boots",
+    "hair_bun"
+   ]
+  }
+ },
+ "holds": {
+  "pistol": "pistol",
+  "revolver": "pistol",
+  "smg": "pistol",
+  "shotgun": "long",
+  "rifle": "long",
+  "sniper": "long",
+  "lmg": "long",
+  "bat": "melee",
+  "machete": "melee",
+  "axe": "melee",
+  "crossbow": "long",
+  "dbarrel": "long",
+  "flamer": "long",
+  "launcher": "long",
+  "carbine": "long",
+  "dmr": "long",
+  "autoshot": "long",
+  "crowbar": "melee"
+ },
+ "models": [
+  "ally_pistol",
+  "ally_shotgun",
+  "body_f",
+  "body_m",
+  "dress_f",
+  "dress_m",
+  "gear_packs",
+  "hero_doc",
+  "hero_eagle",
+  "hero_iron",
+  "hero_wrench",
+  "merc_rifle",
+  "merc_smg",
+  "merchant",
+  "raider",
+  "raider_boss",
+  "raider_cap",
+  "survivor_autoshot",
+  "survivor_axe",
+  "survivor_bat",
+  "survivor_carbine",
+  "survivor_crossbow",
+  "survivor_crowbar",
+  "survivor_dbarrel",
+  "survivor_dmr",
+  "survivor_flamer",
+  "survivor_launcher",
+  "survivor_lmg",
+  "survivor_machete",
+  "survivor_pistol",
+  "survivor_revolver",
+  "survivor_rifle",
+  "survivor_shotgun",
+  "survivor_smg",
+  "survivor_sniper",
+  "zombie_bloater",
+  "zombie_brute",
+  "zombie_burner",
+  "zombie_butcher",
+  "zombie_crawler",
+  "zombie_office",
+  "zombie_police",
+  "zombie_police_broken",
+  "zombie_runner",
+  "zombie_soldier",
+  "zombie_spitter",
+  "zombie_walker",
+  "zombie_woman",
+  "zombie_worker"
+ ]
+}
