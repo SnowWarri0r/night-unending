@@ -1,0 +1,547 @@
+{
+  "name": "zombie-night-47",
+  "note": "Shared sprite palette. Each ramp is dark, mid, light; the sprite shader picks one of the three bands per pixel. 'outline' is the darkest colour and is used for the 1 px outline. Ramps marked emissive ignore lighting (eyes, reflective stripes) and are the candidates for a glow mask.",
+  "colors": [
+    {
+      "name": "outline",
+      "hex": "#0d0b14"
+    },
+    {
+      "name": "zskin_0",
+      "hex": "#3c3b3c"
+    },
+    {
+      "name": "zskin_1",
+      "hex": "#6d6a63"
+    },
+    {
+      "name": "zskin_2",
+      "hex": "#9b9688"
+    },
+    {
+      "name": "rot_0",
+      "hex": "#454a26"
+    },
+    {
+      "name": "rot_1",
+      "hex": "#747a3a"
+    },
+    {
+      "name": "bskin_0",
+      "hex": "#3a383a"
+    },
+    {
+      "name": "bskin_1",
+      "hex": "#66625d"
+    },
+    {
+      "name": "bskin_2",
+      "hex": "#918b80"
+    },
+    {
+      "name": "hskin_0",
+      "hex": "#6b3d2c"
+    },
+    {
+      "name": "hskin_1",
+      "hex": "#b5744e"
+    },
+    {
+      "name": "hskin_2",
+      "hex": "#e8ad80"
+    },
+    {
+      "name": "hair_0",
+      "hex": "#1f1714"
+    },
+    {
+      "name": "hair_1",
+      "hex": "#3e2b22"
+    },
+    {
+      "name": "hair_2",
+      "hex": "#634635"
+    },
+    {
+      "name": "denim_0",
+      "hex": "#1c2a4a"
+    },
+    {
+      "name": "denim_1",
+      "hex": "#33517f"
+    },
+    {
+      "name": "denim_2",
+      "hex": "#5b82b6"
+    },
+    {
+      "name": "leather_0",
+      "hex": "#3b2418"
+    },
+    {
+      "name": "leather_1",
+      "hex": "#714429"
+    },
+    {
+      "name": "leather_2",
+      "hex": "#a46a40"
+    },
+    {
+      "name": "wood_2",
+      "hex": "#d19a62"
+    },
+    {
+      "name": "cloth_0",
+      "hex": "#66605a"
+    },
+    {
+      "name": "cloth_1",
+      "hex": "#a0998b"
+    },
+    {
+      "name": "cloth_2",
+      "hex": "#d8d1c0"
+    },
+    {
+      "name": "olive_0",
+      "hex": "#2f3b1f"
+    },
+    {
+      "name": "olive_1",
+      "hex": "#52623a"
+    },
+    {
+      "name": "charcoal_0",
+      "hex": "#2a2b31"
+    },
+    {
+      "name": "charcoal_1",
+      "hex": "#43464f"
+    },
+    {
+      "name": "charcoal_2",
+      "hex": "#646875"
+    },
+    {
+      "name": "hivis_0",
+      "hex": "#9a3d0c"
+    },
+    {
+      "name": "hivis_1",
+      "hex": "#e8681a"
+    },
+    {
+      "name": "hivis_2",
+      "hex": "#ffa53a"
+    },
+    {
+      "name": "reflect",
+      "hex": "#f2efc8"
+    },
+    {
+      "name": "riot_0",
+      "hex": "#16181f"
+    },
+    {
+      "name": "riot_1",
+      "hex": "#272b36"
+    },
+    {
+      "name": "riot_2",
+      "hex": "#3f4556"
+    },
+    {
+      "name": "navy_0",
+      "hex": "#1a2440"
+    },
+    {
+      "name": "navy_1",
+      "hex": "#2d3e66"
+    },
+    {
+      "name": "navy_2",
+      "hex": "#476294"
+    },
+    {
+      "name": "blood_0",
+      "hex": "#3d0b10"
+    },
+    {
+      "name": "blood_1",
+      "hex": "#731621"
+    },
+    {
+      "name": "blood_2",
+      "hex": "#a8272e"
+    },
+    {
+      "name": "metal_0",
+      "hex": "#4a4e57"
+    },
+    {
+      "name": "metal_1",
+      "hex": "#81878f"
+    },
+    {
+      "name": "metal_2",
+      "hex": "#bfc5cc"
+    },
+    {
+      "name": "eye_glow",
+      "hex": "#fff39a"
+    },
+    {
+      "name": "eye_dead",
+      "hex": "#a39f78"
+    },
+    {
+      "name": "visor",
+      "hex": "#86afc8"
+    },
+    {
+      "name": "red_0",
+      "hex": "#5a1f22"
+    },
+    {
+      "name": "red_1",
+      "hex": "#9b3530"
+    },
+    {
+      "name": "red_2",
+      "hex": "#c9573f"
+    },
+    {
+      "name": "tan_0",
+      "hex": "#5e4a33"
+    },
+    {
+      "name": "tan_1",
+      "hex": "#8d7550"
+    },
+    {
+      "name": "tan_2",
+      "hex": "#b59a6c"
+    },
+    {
+      "name": "acid_0",
+      "hex": "#2f5a14"
+    },
+    {
+      "name": "acid_1",
+      "hex": "#6fb82a"
+    },
+    {
+      "name": "acid_2",
+      "hex": "#b8ef4f"
+    },
+    {
+      "name": "hat_0",
+      "hex": "#8f6a10"
+    },
+    {
+      "name": "hat_1",
+      "hex": "#e0b31c"
+    },
+    {
+      "name": "hat_2",
+      "hex": "#ffe066"
+    },
+    {
+      "name": "apron_0",
+      "hex": "#7d7462"
+    },
+    {
+      "name": "apron_1",
+      "hex": "#c2b9a3"
+    },
+    {
+      "name": "apron_2",
+      "hex": "#ece4cf"
+    },
+    {
+      "name": "pkred_0",
+      "hex": "#5e1f17"
+    },
+    {
+      "name": "pkred_1",
+      "hex": "#a8402c"
+    },
+    {
+      "name": "pkred_2",
+      "hex": "#d9714e"
+    },
+    {
+      "name": "pkgrn_0",
+      "hex": "#2c321e"
+    },
+    {
+      "name": "pkgrn_1",
+      "hex": "#4f5934"
+    },
+    {
+      "name": "pkgrn_2",
+      "hex": "#7b8650"
+    },
+    {
+      "name": "dvis_0",
+      "hex": "#45281a"
+    },
+    {
+      "name": "dvis_1",
+      "hex": "#7c4626"
+    },
+    {
+      "name": "dvis_2",
+      "hex": "#a2683e"
+    },
+    {
+      "name": "dhat_0",
+      "hex": "#463c22"
+    },
+    {
+      "name": "dhat_1",
+      "hex": "#7a6a36"
+    },
+    {
+      "name": "dhat_2",
+      "hex": "#9d8c52"
+    },
+    {
+      "name": "pus_0",
+      "hex": "#2c3016"
+    },
+    {
+      "name": "pus_1",
+      "hex": "#5c6226"
+    },
+    {
+      "name": "pus_2",
+      "hex": "#868a3c"
+    }
+  ],
+  "ramps": {
+    "zombie_skin": [
+      "zskin_0",
+      "zskin_1",
+      "zskin_2"
+    ],
+    "rot": [
+      "rot_0",
+      "rot_0",
+      "rot_1"
+    ],
+    "brute_skin": [
+      "bskin_0",
+      "bskin_1",
+      "bskin_2"
+    ],
+    "human_skin": [
+      "hskin_0",
+      "hskin_1",
+      "hskin_2"
+    ],
+    "hair": [
+      "hair_0",
+      "hair_1",
+      "hair_2"
+    ],
+    "denim": [
+      "denim_0",
+      "denim_1",
+      "denim_2"
+    ],
+    "leather": [
+      "leather_0",
+      "leather_1",
+      "leather_2"
+    ],
+    "cloth": [
+      "cloth_0",
+      "cloth_1",
+      "cloth_2"
+    ],
+    "olive": [
+      "olive_0",
+      "olive_1",
+      "rot_1"
+    ],
+    "charcoal": [
+      "charcoal_0",
+      "charcoal_1",
+      "charcoal_2"
+    ],
+    "hivis": [
+      "hivis_0",
+      "hivis_1",
+      "hivis_2"
+    ],
+    "riot": [
+      "riot_0",
+      "riot_1",
+      "riot_2"
+    ],
+    "navy": [
+      "navy_0",
+      "navy_1",
+      "navy_2"
+    ],
+    "blood": [
+      "blood_0",
+      "blood_1",
+      "blood_2"
+    ],
+    "metal": [
+      "metal_0",
+      "metal_1",
+      "metal_2"
+    ],
+    "gunmetal": [
+      "riot_0",
+      "charcoal_0",
+      "charcoal_2"
+    ],
+    "visor": [
+      "navy_2",
+      "visor",
+      "visor"
+    ],
+    "dark": [
+      "outline",
+      "hair_0",
+      "hair_0"
+    ],
+    "mouth": [
+      "outline",
+      "blood_0",
+      "blood_0"
+    ],
+    "teeth": [
+      "cloth_1",
+      "cloth_2",
+      "cloth_2"
+    ],
+    "eye_glow": [
+      "eye_glow",
+      "eye_glow",
+      "eye_glow"
+    ],
+    "reflect": [
+      "reflect",
+      "reflect",
+      "reflect"
+    ],
+    "socket": [
+      "outline",
+      "outline",
+      "outline"
+    ],
+    "eye_hl": [
+      "reflect",
+      "reflect",
+      "reflect"
+    ],
+    "rip": [
+      "denim_2",
+      "cloth_1",
+      "cloth_2"
+    ],
+    "hair_lo": [
+      "hair_0",
+      "hair_0",
+      "hair_1"
+    ],
+    "charcoal_lo": [
+      "charcoal_0",
+      "charcoal_0",
+      "charcoal_1"
+    ],
+    "wood": [
+      "leather_1",
+      "leather_2",
+      "wood_2"
+    ],
+    "cloth_lo": [
+      "cloth_0",
+      "cloth_0",
+      "cloth_1"
+    ],
+    "red": [
+      "red_0",
+      "red_1",
+      "red_2"
+    ],
+    "tan": [
+      "tan_0",
+      "tan_1",
+      "tan_2"
+    ],
+    "acid": [
+      "acid_0",
+      "acid_1",
+      "acid_2"
+    ],
+    "acid_glow": [
+      "acid_1",
+      "acid_2",
+      "acid_2"
+    ],
+    "hardhat": [
+      "hat_0",
+      "hat_1",
+      "hat_2"
+    ],
+    "apron": [
+      "apron_0",
+      "apron_1",
+      "apron_2"
+    ],
+    "pack_red": [
+      "pkred_0",
+      "pkred_1",
+      "pkred_2"
+    ],
+    "pack_green": [
+      "pkgrn_0",
+      "pkgrn_1",
+      "pkgrn_2"
+    ],
+    "ember": [
+      "hivis_1",
+      "hivis_2",
+      "hivis_2"
+    ],
+    "eye_dead": [
+      "eye_dead",
+      "eye_dead",
+      "eye_dead"
+    ],
+    "hivis_dead": [
+      "dvis_0",
+      "dvis_1",
+      "dvis_2"
+    ],
+    "hardhat_dead": [
+      "dhat_0",
+      "dhat_1",
+      "dhat_2"
+    ],
+    "pus": [
+      "pus_0",
+      "pus_1",
+      "pus_2"
+    ],
+    "pus_glow": [
+      "pus_1",
+      "pus_2",
+      "pus_2"
+    ]
+  },
+  "emissive": [
+    "eye_glow",
+    "reflect",
+    "acid_glow",
+    "ember",
+    "eye_dead",
+    "pus_glow"
+  ]
+}
