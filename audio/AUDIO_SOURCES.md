@@ -69,6 +69,14 @@ made them, and use is free for anyone below US $1M in annual revenue. The prompt
 - `dawn.m4a`: triumphant sunrise theme after surviving the night, uplifting strings and piano, warm brass swell, relief and hope
 - `gameover.m4a`: somber game over music, solo piano, fading strings, quiet and short
 
+`boss.m4a` is the butcher's. The other four bosses each have their own, made the same way but picked by ear from four
+takes, the silence at the end cut and levelled to `boss.m4a` (-11.3 LUFS):
+
+- `boss-sheriff.m4a`: epic boss battle music, a corrupt riot police chief, militant marching snare and heavy industrial percussion, brass stabs, wailing siren-like synth swells, distorted bass, authoritarian and relentless, 150 BPM
+- `boss-mother.m4a`: horror boss battle music, a monstrous mother, dissonant screeching strings, wet organic textures, whispering choir, slow heavy pulsing drums, deep sub bass, creeping and nauseating dread, 100 BPM
+- `boss-sergeant.m4a`: intense military boss battle music, pounding war drums and snare rolls, distorted low brass, driving synth bass ostinato, gunfire-like staccato percussion, tactical and aggressive, 140 BPM
+- `boss-burner.m4a`: furious industrial metal boss battle music, roaring down-tuned distorted guitars, crackling fire noise, pounding double kick drums, hellish choir, blazing and chaotic, 170 BPM
+
 The day's track is the season's (`day.m4a` is spring's). The other three were made the same way: two prompts a
 season, two takes of each, the one kept picked by what can be measured of it (how bright, how much is struck, how
 steady its beat) and not yet by ear, then levelled to the first (-13.8 LUFS). The prompts of the three kept:
